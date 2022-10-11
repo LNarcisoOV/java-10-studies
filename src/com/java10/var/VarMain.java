@@ -9,6 +9,7 @@ public class VarMain {
 	public static void main(String args[]) {
 		// var in java is not like in javascript
 		// the compiler will assum var as the type of the initalization
+		
 		whatYouCanDo();
 		whatYouCantDo();
 	}
@@ -29,6 +30,11 @@ public class VarMain {
 			
 		}
 
+
+//		var is not a reserved word, you can create classes and variables with var name
+		
+		var var = 123;
+//		private class Var{}
 	}
 
 	private static void whatYouCantDo() {
