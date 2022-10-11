@@ -1,5 +1,6 @@
 package com.java10.var;
 
+import java.io.ByteArrayInputStream;
 import java.util.List;
 import java.util.Scanner;
 
@@ -17,6 +18,7 @@ public class VarMain {
 		var text = "This is my text!";
 		var scan = new Scanner(text);
 		var textByMethod = getTextByMethod();
+		var byteArray = new ByteArrayInputStream(null);
 		
 		var list = List.of("A", "B", "C");
 		for(var item : list) {
@@ -30,7 +32,29 @@ public class VarMain {
 	}
 
 	private static void whatYouCantDo() {
-
+//		var a = null;
+//		var nonInitializedVariable;
+		
+//	    lambdas 
+//		var r = () -> System.out.println("");
+		
+//		method argument
+//		public void test(var string){}
+		
+//		constructors
+//		public MyClass(var string){}
+		
+//		returning a var
+//		public var methodName(){}ß
+		
+//		class attributes
+//		public class VarMain {
+//		var number = 233;
+		
+//		try {
+//		}catch(var e) {} 
+		
+		
 	}
 
 	private static String getTextByMethod() {
